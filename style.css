@@ -1,0 +1,389 @@
+body{
+	background:URL('0.jpg');
+        margin: 0;
+	 font-family:"Lucida Grande", arial, sans-serif;  
+}
+.tablero4{
+    width: 500px;
+    margin-left:290px;
+    margin-top:83px;
+}
+.juego{
+    width: 100px;
+    height: 100px;
+}
+table tr td{
+    height:50px;
+    background: url('bgg.png');
+    
+}
+.si{
+   color:chartreuse;
+}
+.no{
+    color: #D52100;
+}
+#peticion{
+    background:#FBC700 url('bgdiv.png');
+    margin: 5px;
+    color:white;
+    padding: 10px;
+    box-shadow: 0 0 30px black;
+    border-radius:10px;
+}
+.si{
+    padding: 7px;
+    color:black;
+    margin: 7px;
+    border-radius:5px;
+    border: 1px solid chartreuse;
+}
+.si:hover{
+    padding: 7px;
+    color:black;
+    margin: 7px;
+    background: chartreuse;
+    cursor: pointer;
+}
+.name{
+    color:yellow;
+    text-shadow:0 0 5px black;
+}
+.no{
+    border-radius:5px;
+    padding: 5px;
+    margin: 5px;
+    color:black;
+    border:1px solid #D52100;
+}
+.no:hover{
+    padding: 5px;
+    margin: 5px;
+    color:black;
+    background: #D52100;
+    cursor: pointer;
+}
+#peticion p{
+    color:white;
+}
+#peticion:hover{
+    background:#FBC700 url('bgdiv.png');
+    margin: 5px;
+    color:white;
+    padding: 10px;
+    box-shadow: 0 0 30px black inset;
+    border-radius:10px;
+}
+#peticiones{
+    position: absolute;
+    bottom: 80px !important;
+    padding: 10px;
+    background: transparent;
+    left: 50px;
+    min-height: 60px;
+    width: 300px;
+}
+#popsessionon{
+    position: absolute;
+    background: transparent;
+    border: 1px solid black;
+    width: 200px;
+    top:75%;
+    margin: 50px;
+    padding: 5px;
+    height: auto;
+    min-height: 50px;
+    box-shadow:1px 1px 10px black;
+}
+#popsessionon p{
+    color:white;
+}
+#Encabezado{
+    margin: 0 auto !important;
+    padding: 0;
+    height: auto;
+    width: 500px;
+    text-align:center ;
+    z-index: 1;
+}
+  
+  
+#Encabezado ul{  
+    margin:0;  
+    padding:0;  
+}  
+#menu{
+    width: 100px;
+    
+}
+#Encabezado li{ 
+    box-shadow:0 0 10px black;
+    border-top-right-radius: 10px;
+    width:100px;  
+    height:70px;  
+    float:left;  
+    margin:10px;
+    color:white;  
+    text-align:center;  
+    overflow:hidden;  
+}  
+#Pop{
+    width: 100%!important;
+    height: 100%!important;
+    position:absolute;
+    background: black;
+    opacity:.5;
+}
+#Pop-menu{
+    position:absolute;
+    margin-left: 34%;
+    margin-top: 40%;
+    min-height:20px;
+    width: 400px;
+    padding: 10px;
+    background: white;
+}
+a{  
+    color:white;  
+    text-decoration:none;  
+}  
+#servermessage{
+    width: 500px;
+    background: white;
+    margin:0 auto;
+    padding: 10px;
+    text-align: center;
+}
+#Encabezado p{  
+    padding:10px 0px;  
+}  
+  
+.subtext{  
+    padding-top:10px;  
+} 
+.green{background:#6AA63B  url('bgdiv.png')  no-repeat;}  
+.yellow{background:#FBC700 url('bgdiv.png') no-repeat;}  
+.red{background:#D52100 url('bgdiv.png') no-repeat;}  
+.purple{background:#5122B4 url('bgdiv.png') no-repeat;}  
+.blue{background:#0292C0 url('bgdiv.png') no-repeat;}  
+#Encabezado{
+    color:white;
+}
+#Encabezado a{
+    color:white!important;
+}
+a p .negro{
+    color:white;
+}
+form p{
+    color:white;
+}
+#inicio .left,#oculto .left{
+    width: 250px!important;
+    color:black;
+}
+.Hola{
+    height:50px ;
+}
+p{
+	text-shadow:5px 5px 10px black;
+	color:black;
+}
+
+img#logo.jj{
+	width:180px;
+	float:right;
+}
+
+
+img#logo.hl{
+	width:300px;
+	margin-top:100px;
+}
+#logotipo{
+	margin-left:14%;
+	margin-top:-15%;
+	width:140px;
+	position:absolute;
+        z-index: 11;
+}
+#oculto{
+	display:none;
+}
+#cambios input{
+    background: transparent;
+    border: none;
+    width:500px;
+}
+#cerrar{
+    cursor: pointer;
+}
+#jugar{
+    cursor: pointer;
+}
+#cambios{
+    color: chartreuse;
+    text-shadow:0 0 10px black;
+}
+.cambio{
+    background: deeppink;
+}
+.input{
+    background: white;
+}
+#Respuesta p{
+    color:white;
+}
+#Respuesta{
+    box-shadow:0 0 10px black;
+    margin:0 auto;
+    border-radius:10px;
+    padding: 50px;
+    height: auto;
+    width: 500px;
+    margin-top: 150px;
+    color:white;
+    background: #5122B4 url('divbg.png');
+}
+
+p[class=especial], .ded, #cuenta{
+	cursor:pointer;
+}
+
+input[class=left]{
+	float:right;
+}
+.left{
+	float:rigth;
+}
+.center{
+	text-align:center;
+}
+#red{
+	width:400px;
+	margin-left:22%;
+}
+#top{
+	position:absolute;
+	bottom:0 !important;
+}
+table tr td{
+    height: 50px !important;
+    width: 50px!important;
+}
+td img{
+    width: 45px;
+}
+p .button{
+    float:right!important;
+    margin-top:-10px;
+    background: darkorchid;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:10px;
+    padding: 10px!important;
+}
+input[type=Text]{
+    float:right!important;
+    font-size: 12pt;
+    width:450px;
+    color:white;
+}
+.user{
+    color:greenyellow;
+    float:right!important;
+}
+#principal{
+	background:trasparent;
+	width:400px;
+	padding:50px;
+	margin:0 auto;
+	margin-top:80px;
+	box-shadow:0px 0px 10px black;
+}
+.table{
+    margin-left: 465px;
+    margin-top:20px;
+    width:430px;
+    position:absolute;
+    display:inline;
+    z-index: 5;
+}#gamers{
+    text-align: center;
+}
+.derecha{
+    float: right;
+}
+.izquierda{
+    float:left;
+}
+#tablero{
+    position: absolute;
+    margin-left: 35%;
+    margin-top:15%;
+}
+div.tablero,div#tablero2{
+    display:block;
+    margin-left:auto;
+    margin-rigth:auto;
+    padding: 50px;
+    background: white;
+    border-radius:10px;
+    z-index: 1;
+}
+
+input[type=text],input[type=password]{
+	height:30px;
+	border-radius:10px;
+	font-size:17pt;
+}
+#alta{
+	width:1050px;
+	margin:0 auto;
+}
+div#principal.ini{
+	width:800px;
+        border:1px solid white ;
+        border-radius:10px;
+        background:url('divbg.png'),url('prinbg.jpg');
+        
+}
+div#principal.prin{
+	background:URL('1.jpg');
+	width:350px;
+	padding:50px;
+	float:left;
+	margin-left:5%;
+	box-shadow:0px 0px 10px black;
+}
+#head.ii{
+	background:transparent red;
+	width:400px;
+	padding:10px;
+	float:right;
+	margin-right:100px;
+}
+#head.idi{
+	background:red;
+	width:400px;
+	padding:10px;
+	margin:0 auto;
+}
+.head0,.head2,.head1,.head3,.head4,.head5{
+    display:none;
+}
+.button{
+	background:ligthgray;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	box-shadow:0px 0px 0px black;
+}
+.button:hover{
+	background:ligthgray;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	box-shadow:0px 0px 15px black;
+}
